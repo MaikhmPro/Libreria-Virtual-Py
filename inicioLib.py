@@ -10,13 +10,14 @@ class Libreria:
     def autor(self):
         print(input(f"El libro llamado {self.nombre_libros} su autor es {self.autor_libro}"))
 class Estanteria:
+    #"vamos a crear la estanteria para los libros usando la opcion self."
     def __init__(self,num_estante,tipo_obra):
         self.num_estante = num_estante
         self.tipo_obra= tipo_obra
     def obra(self):
         print(f"El tipo de categoria del libro es {self.tipo_obra}")
     def estante(self):
-        print(f"El numero de estante que quedo almacenado fue el #{self.num_estante}")
+        print(f"El numero de estante que quedo almacenado git fue el #{self.num_estante}")
         #"Este proyecto define en que estante esta almacenado el libro"
 
         
