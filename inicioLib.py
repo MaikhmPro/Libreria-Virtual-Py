@@ -17,6 +17,7 @@ class Estanteria:
         print(f"El tipo de categoria del libro es {self.tipo_obra}")
     def estante(self):
         print(f"El numero de estante que quedo almacenado fue el #{self.num_estante}")
+        #"Este proyecto define en que estante esta almacenado el libro"
 
         
 
